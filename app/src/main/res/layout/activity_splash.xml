@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView android:layout_height="80dp"
+    android:layout_width="80dp"
+    android:layout_centerInParent="true"
+    android:id = "@+id/scholu"
+    android:src = "@drawable/scholify"/>
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/scholu"
+    android:text="Scholify"
+    android:layout_centerHorizontal="true"
+    android:textSize="50sp"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="italic"
+    android:id = "@+id/write"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/write"
+        android:text="Let your dreams unleash"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:id = "@+id/AboutUs"
+    android:textAlignment="center"
+    android:layout_centerInParent="true"
+    >
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:padding="12dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:textColor="#413212"
+    android:text ="Scholify is an educational innovation, a brainchild of some samaritans in the world today."
+    android:layout_above="@+id/inspi"
+
+    android:textStyle="bold"/>
+    <ImageView android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:src = "@drawable/mayank_scholify"/>
+    <TextView
+        android:id="@+id/inspi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We aim to show you the paths, for your better futures"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>
